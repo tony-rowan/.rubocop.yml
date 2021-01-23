@@ -1,0 +1,7 @@
+inherit_from:
+  - https://raw.githubusercontent.com/tony-rowan/.rubocop.yml/main/.rubocop.yml
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'node_modules/**/*'
