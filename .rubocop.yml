@@ -1,13 +1,17 @@
+# Let's be optimistic
+AllCops:
+  NewCops: enable
+
 # Metrics are best left for humans to decide
 Metrics:
   Enabled: false
+
+# I find this much easier to read
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
 
 # These are just noisy and annoying
 Style/Documentation:
   Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
-
-# I find this much easier to read
-Style/MultilineMethodCallIndentation:
-  EnforcedStyle: indented
