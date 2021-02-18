@@ -6,9 +6,13 @@ AllCops:
 Metrics:
   Enabled: false
 
+# Let's not encourage massive amounts of indentation and wasted space
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
 # I find this much easier to read
 Layout/MultilineMethodCallIndentation:
   EnforcedStyle: indented
+ 
 
 # These are just noisy and annoying
 Style/Documentation:
